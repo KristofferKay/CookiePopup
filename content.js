@@ -6,7 +6,6 @@ const selectors = [
     'button[name*="accept"]',
     'button[value*="accept"]',
     'button[title*="accept"]',
-    'div[role="button"]',
     '#CybotCookiebotDialogBodyButtonAccept',
     '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll',
     '.cb-enable',
@@ -27,6 +26,7 @@ function clickAcceptButton(){
         if(button){
             button.click();
             console.log("Cookie accepted");
+            console.log(selector)
             return;
         } else errorMsg()
     }

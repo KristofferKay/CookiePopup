@@ -1,6 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Accept Cookies App",
+    "icons": {
+        "16": "images/cookie.png",
+        "48": "images/cookie.png",
+        "128": "images/cookie.png"
+    },
     "version": "1.0",
     "description": "Auto accept cookies",
     "permissions": [
